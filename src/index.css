@@ -1,13 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global dark theme */
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  @apply bg-darkBg text-softWhite font-sans;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Neon glow text */
+.neon-text {
+  color: rgb(201, 166, 229);
+  text-shadow: 0 0 3px rgb(201, 166, 229),
+               0 0 6px rgba(201, 166, 229, 0.8);
+}
+html {
+  scroll-behavior: smooth;
+}
+.shadow-neon {
+  box-shadow: 0 0 6px rgba(201, 166, 229, 0.6),
+              0 0 12px rgba(201, 166, 229, 0.4);
 }

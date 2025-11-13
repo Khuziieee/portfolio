@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://github.com/Khuziieee/Portfolio_Website",
+  "homepage": "https://khuziieee.github.io/Portfolio_Website",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
@@ -22,7 +22,6 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-
   },
   "eslintConfig": {
     "extends": [

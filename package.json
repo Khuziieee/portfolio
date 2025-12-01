@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://khuziieee.github.io/portfolio07",
+  "homepage": "https://Khuziieee.github.io/portfolio07",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
